@@ -15,3 +15,7 @@ EXECUÇÃO:
 
 A preparação do ambiente para instalação e execução do RISO é a parte mais demorada do processo. Primeiro deve-se criar a imagem, que servirá também como servidor. O particionamento deve ser feito de maneira que pelo menos metade do disco seja reservado para um sistema de manutenção, que deverá ser uma distribuição Debian. A outra metade deve ser dividida da maneira que se considerar mais adequado, entre 1 sistema Linux e 1 Windows. O GRUB a ser utilizado deve ser o da partição de manutenção (ou de recuperação).
 
+ADEQUAÇÕES
+
+Possibilidade de download de imagens muito grandes, erro de Grub resolvido, e foi retirado o While das funções de baixar imagens, agora e possível ter uma interface no cliente semelhante a do servidor.
+
